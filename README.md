@@ -1,6 +1,8 @@
 # OSSN-HomePagePost
 
-This component allow users decides to see posts from all or friends only.
+This component allow users decides to see posts from all or friends only by showing two options above new post block in NewsFeed. 
+
+![Screenshot](https://www.rafaelamorim.com.br/temp/homepageposts.png)
 
 ## How to use
 
