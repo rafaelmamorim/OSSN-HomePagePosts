@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component xmlns="http://www.opensource-socialnetwork.org/v/3.0">
+    <name>Home Page Posts</name>
+    <id>HomePagePosts</id>
+    <author>Rafael Amorim</author>
+    <description>This component allow users decides to see friends only posts or public. </description>
+    <license>OSSN v4</license>
+    <author_url>https://www.rafaelamorim.com.br/</author_url>
+    <license_url>http://www.opensource-socialnetwork.org/licence</license_url>
+    <version>1.0</version>
+	<requires>
+		<type>ossn_version</type>
+		<version>6.0</version>
+	</requires>
+    <requires>
+		<type>ossn_component</type>
+		<name>OssnWall</name>
+		<version>6.0</version>
+	</requires>
+</component>
