@@ -32,7 +32,7 @@
  * @return mixed data
  * @access private
  */
-function ossn_get_homepage_wall_access() {
+function hpage_posts_get_homepage_wall_access() {
     
     if(!OssnSession::isSession('com_wall_type_access')) {
         $data = ossn_get_entities(array(
