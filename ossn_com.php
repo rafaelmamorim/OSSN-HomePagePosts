@@ -12,12 +12,9 @@
  */
 
 function homePagePosts_init() {
-		//js
-		ossn_extend_view('js/ossn.site', 'js/homepageposts');
-
-		//pages
-		//register these pages only for loggedin users
+		//register these pages and js only for loggedin users
 		if(ossn_isLoggedin()) {
+				ossn_extend_view('ossn/site/head', 'js/homepageposts');
 				ossn_register_page('friends', 'wall_friends_page_handler');
 				ossn_register_page('public', 'wall_public_page_handler');
 		}
