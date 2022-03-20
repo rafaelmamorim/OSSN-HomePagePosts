@@ -16,8 +16,8 @@ If any other component uses the ossn_get_homepage_wall_access() function it is n
 ## Changes
 
 - 1.3
--- Fix Avoid caching the JS files (Issue #4) - Thanks to [Arsalan Shah](https://github.com/lianglee) to solve the issue and [Tamás Varga] (https://www.opensource-socialnetwork.org/u/kutyafule) for finding the glitch 
--- Added all OSSN supported languages. Except for EN, PT, and ES files, all others need to be translated
+	- Fix Avoid caching the JS files (Issue #4). Thanks to [Arsalan Shah](https://github.com/lianglee) to solve the issue and [Tamás Varga] (https://www.opensource-socialnetwork.org/u/kutyafule) for finding the glitch 
+	- Added all OSSN supported languages. Except for EN, PT, and ES files, all others need to be translated
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
