@@ -7,7 +7,7 @@
     <license>OSSN v4</license>
     <author_url>https://www.rafaelamorim.com.br/</author_url>
     <license_url>http://www.opensource-socialnetwork.org/licence</license_url>
-    <version>1.2</version>
+    <version>1.3</version>
 	<requires>
 		<type>ossn_version</type>
 		<version>6.0</version>
