@@ -20,11 +20,11 @@ $(document).ready(function () {
             WallSelector += '    <div class="ossn-widget">';
             WallSelector += '        <div class="widget-heading container-fluid">';
             WallSelector += '            <div class="row" >'; 
-            WallSelector += '                <div class="col text-center">';
+            WallSelector += '                <div class="col text-center <?php echo OssnSession::getSession('com_wall_type_access')=='public' ?  'text-danger' :''; ?>">';
             WallSelector += '                    <a href="<?php echo ossn_site_url('public'); ?>"  class="<?php echo OssnSession::getSession('com_wall_type_access')=='public' ?  ' text-danger' :''; ?>"><?php echo ossn_print('homepageposts:option:public');?></a>';
             WallSelector += '                </div>';
-            WallSelector += '                <div class="col text-center  <?php echo OssnSession::getSession('com_wall_type_access')=='friends' ?  'text-danger' :''; ?>">';
-            WallSelector += '                    <a href="<?php echo ossn_site_url('friends'); ?>"  class="<?php echo OssnSession::getSession('com_wall_type_access')=='friends' ?  ' text-danger"' :''; ?>"><?php echo ossn_print('homepageposts:option:friends');?></a>';
+            WallSelector += '                <div class="col text-center <?php echo OssnSession::getSession('com_wall_type_access')=='friends' ?  'text-danger' :''; ?>">';
+            WallSelector += '                    <a href="<?php echo ossn_site_url('friends'); ?>"  class="<?php echo OssnSession::getSession('com_wall_type_access')=='friends' ?  ' text-danger' :''; ?>"><?php echo ossn_print('homepageposts:option:friends');?></a>';
             WallSelector += '                </div>';
             WallSelector += '            </div>';
             WallSelector += '        </div>';
